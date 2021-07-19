@@ -1,3 +1,9 @@
+# CONFIGURANDO ESLINT y PRETTIER
+Acceso a vídeo  [configurando ESLINT y PRETTIER](https://www.youtube.com/watch?v=EEDRcolSHms).
+## ESLINT
+
+## PRETTIER
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
