@@ -1,6 +1,11 @@
 # CONFIGURANDO ESLINT y PRETTIER
-Acceso a vídeo  [configurando ESLINT y PRETTIER](https://www.youtube.com/watch?v=EEDRcolSHms).
+- Acceso a vídeo  [configurando ESLINT y PRETTIER](https://www.youtube.com/watch?v=EEDRcolSHms).
 ## ESLINT
+
+- Instalar dependencia de esLint (7.00)
+  - Sitio oficial eslint  [eslint](https://eslint.org/).
+  - Ejecutar: npm i -D eslint
+
 
 ## PRETTIER
 
