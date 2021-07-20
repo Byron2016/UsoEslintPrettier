@@ -136,5 +136,6 @@
 ## VERIFICAR ESLINT Y PRETTIER SE CUMPLEN (54.30)
 
 - Sitio oficial [lint-staged](https://github.com/okonet/lint-staged).
+- La función de este utilitario es el verificar q se cumple prettier y eslint antes de subir a github.
 
 - Ejecutar: npx mrm@2 lint-staged
