@@ -24,8 +24,14 @@
 	    - JavaScript
     - Would you like to install them now with npm?
 	    - Yes
-
-
+  - Instalar extension de ESLINT (14.15)
+	  - ESLint de Dirk Baeumer (dbaeumer.vscode-eslint)
+  - Buscar problemas (14.58)
+	  - Ejecutar: npx eslint .
+	  - O ejecutar: ./node_modules/.bin/eslint .
+  - Reparar problemas (15.30)
+	  - Ejecutar: npx eslint . --fix
+	  - O ejecutar: ./node_modules/.bin/eslint . --fix
 
 ## PRETTIER
 
