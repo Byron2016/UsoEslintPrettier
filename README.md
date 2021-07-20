@@ -5,6 +5,26 @@
 - Instalar dependencia de esLint (7.00)
   - Sitio oficial eslint  [eslint](https://eslint.org/).
   - Ejecutar: npm i -D eslint
+- Configurar esLint (7.15)
+  - Ejecutar: npx eslint --init
+	  - How would you like to use ESLint?
+	    - To check syntax, find problems, and enforce code style
+    - What type of mudules does your project use?
+	    - JavaScript modules (import/export)
+    - Which framework does your project use?
+	    - React
+    - Does your project use TypeScript?
+	    - No
+    - Where does your code run?
+	    - Presionar a para TODOS.
+    - How would you like to define a style for your project?
+	    - Use a popular style guide
+	      - Standard: https://github.com/standard/standard
+    - What format do you want your config file to be in?
+	    - JavaScript
+    - Would you like to install them now with npm?
+	    - Yes
+
 
 
 ## PRETTIER
