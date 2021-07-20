@@ -32,6 +32,47 @@
   - Reparar problemas (15.30)
 	  - Ejecutar: npx eslint . --fix
 	  - O ejecutar: ./node_modules/.bin/eslint . --fix
+  - Crear script en package.json (16.45)
+	  - "lint": "eslint . --fix",
+  - Configurar settings.json (17.50)
+	  - Abrir con UI: Crtl ,
+	    - Eslint: Enable
+	    - Controls whether eslint is enabled for JavaScript files or not.
+	  - Abrir como archivo: Crtl + shift + p seleccionar Open Setting (json) (19.40)
+	    - C:\Users\xxxx\AppData\Roaming\Code\User\settings.json
+
+          ```json
+          {
+            "[javascript]": {
+              // Utilizando CON prettier
+              // "editor.defaultFormatter": "esbenp.prettier-vscode",
+              // "editor.formatOnSave": true,
+              // Original
+              "editor.codeActionsOnSave": {
+                "source.fixAll.eslint": true
+              }
+            },
+          }
+          ```
+
+  - Desactivar reglas de ESLint y StandardJS (21.35)
+	  - 'React' must be in scope when using JSX y Error de las propTypes
+	    - En archivo ".eslintrc.js" sección "Rules"
+
+          ```
+          const RULES = {
+            OFF: 'off',
+            WARN: 'warn',
+            ERROR: 'error'
+          }
+          module.exports = {
+            rules: {
+              'react/prop-types': RULES.OFF,
+              'react/react-in-jsx-scope': RULES.OFF
+            },
+          }
+          ```
+b
 
 ## PRETTIER
 
